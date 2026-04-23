@@ -1,0 +1,5 @@
+@if( secondsLeft$ | async; as seconds ) {
+<p>Seconds left to deadline: {{ seconds }}</p>
+} @else {
+<p>Loading...</p>
+}
